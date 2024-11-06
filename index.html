@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page |ScriptingWithSaad</title>
+    
+    <!-- link css file -->
+    <link rel="stylesheet" href="./stylesheet/style.css">
+    
+    <!-- link favicon -->
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="product">
+            <div class="gallery">
+                <img src="./assets/images/image1.png" id="productImg">
+                <div class="controls">
+                    <span class="btn active"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                </div>
+            </div>
+            <div class="details">
+                <h1>Casual T Shirt</h1>
+                <h2>$15.00</h2>
+                <h3>30% OFF</h3>
+                <p>Wranglar is an American manufacture of jeans and other clothing items, particulrly workwear.</p>
+
+                <form>
+                    <div class="size-select">
+                        <p>size:</p>
+                        <label for="Small">
+                            <input type="radio" name="size" id="Small">
+                            <span>S</span>
+                        </label>
+                        <label for="Medium">
+                            <input type="radio" name="size" id="Medium">
+                            <span>M</span>
+                        </label>
+                        <label for="Large">
+                            <input type="radio" name="size" id="Large">
+                            <span>L</span>
+                        </label>
+                        <label for="xx-Large">
+                            <input type="radio" name="size" id="xx-Large">
+                            <span>XXL</span>
+                        </label>
+                    </div>
+
+                    <div class="color-select">
+                        <p>Color:</p>
+                        <label for="red">
+                            <input type="radio" name="color" id="red">
+                            <span class="color-1"></span> 
+                        </label>
+                        <label for="green">
+                            <input type="radio" name="color" id="green">
+                            <span class="color-2"></span> 
+                        </label>
+                        <label for="blue">
+                            <input type="radio" name="color" id="blue">
+                            <span class="color-3"></span> 
+                        </label>
+                        <label for="pink">
+                            <input type="radio" name="color" id="pink">
+                            <span class="color-4"></span> 
+                        </label>
+                    </div>
+
+                    <div class="quantity-select">
+                        <p>Quantity:</p>
+                        <input type="number" value="1">
+                    </div>
+
+                    <button>Buy Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <!-- link script file -->
+    <script src="./script/script.js"></script>
+</body>
+</html>
